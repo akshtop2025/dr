@@ -210,17 +210,20 @@ header {
     color: white;
 }
 
-/* .home_txt h2 {
-    font-size: 35px;
-    margin-top: 60px;
-} */
+.home_txt h2 {
+    font-size: 10px;
+}
+
+
 
 .home_txt h1 {
     font-size: 10px;
 }
 
+
+
 .home_txt h3 {
-    font-size: 40px;
+    font-size: 10px;
 }
 
 .main_img {
@@ -1133,6 +1136,14 @@ header {
         margin-bottom: 20px;
         border-radius: 20px;
         margin-top: 30px;
+    }
+
+    .home_txt h2 {
+        font-size: 35px;
+    }
+
+    .home_txt h3 {
+        font-size: 40px;
     }
 
 
