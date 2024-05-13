@@ -1,0 +1,23 @@
+home  imge center and text center on phone 
+
+
+
+
+icone phone in inder row
+
+change btn on phone 
+
+prees  in inder box big
+
+
+img remove right logo
+
+
+
+
+
+
+
+
+
+780 chang footer text add display flex and remove text-aline 
