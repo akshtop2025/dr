@@ -1011,6 +1011,16 @@ header {
 
         font-size: 35px;
     }
+    .social ul li a {
+    background-color: #2892F6;
+    padding: 8px 10px;
+    border-radius: 15px;
+    margin: 10px;
+    font-size: 12px;
+    color: white;
+    margin-bottom: 20px;
+}
+
 
     .step_btn {
         /* margin-top: 50px; */
