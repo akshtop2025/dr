@@ -83,6 +83,63 @@ $(document).ready(function () {
 });
 
 
+// slider code first slider
 
+// $(document).ready(function () {
+//     $(".my-slider").slick({
+//         slidesToShow: 5,
+//         slidesToScroll: 1,
+//         arrows: true,
+//         dots: true,
+//         speed: 300,
+//         infinite: true,
+//         autoplaySpeed: 2000,
+//         autoplay: true,
+//         responsive: [
+//             {
+//                 breakpoint: 991,
+//                 settings: {
+//                     slidesToShow: 3
+//                 }
+//             },
+//             {
+//                 breakpoint: 767,
+//                 settings: {
+//                     slidesToShow: 1
+//                 }
+//             }
+//         ]
+//     });
+// });
 
+$(document).ready(function () {
+    $(".my-slider").slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: true,
+        outerWidth: 100,
+        arrows: true,
+        dots: false,
+        speed: 300,
+        infinite: true,
+        autoplaySpeed: 5000,
+        Highlight: 100,
 
+        autoplay: true,
+        responsive: [
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 3,
+                    Highlight: 100
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
+});
